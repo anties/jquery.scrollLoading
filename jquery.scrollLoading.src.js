@@ -5,6 +5,7 @@
 *    ajaxData: $.ajax 的參數，dataType 目前支援 html, json
 *    ratio: (optional) 捲軸高度/內容高度的值大於多少時才加載，預設為 0.9
 *  2. 若要使用 json 格式，請將新內容放入 content 索引中，即：{content: [新內容], xxx: 123, ...}
+*  3. 若有連續加載的動作需要重設 request 參數，請使用 $.scrollLoading.ajaxData.data = {...}
 */
 ;(function($){
     var $scrollLoading;
