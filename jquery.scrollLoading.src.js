@@ -43,7 +43,8 @@
 
             this.outer.scroll(function(){
                 var sl = $scrollLoading;
-                if ((true === sl.more) && (sl.outer.scrollTop() / sl.judgeBy.height() >= sl.ratio)) {
+                var scrollBottom = sl.outer.scrollTop() + $(window).height();
+                if ((true === sl.more) && (scrollBottom / sl.judgeBy.height() >= sl.ratio)) {
                     sl.more = false;
                     sl.sendRequest();
                 }
