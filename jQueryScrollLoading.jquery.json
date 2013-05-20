@@ -1,0 +1,27 @@
+{
+    "name": "jQueryScrollLoading",
+    "version": "1.0.1",
+    "title": "jQueryScrollLoading",
+    "author": {
+        "name": "anties",
+        "url": "https://github.com/anties"
+    },
+    "licenses": [
+        {
+        "type": "MIT",
+        "url": "http://opensource.org/licenses/MIT"
+        }
+    ],
+    "dependencies": {
+        "jquery": ">=1.2.6"
+    },
+    "description": "a scroll loading plugin which can load more contents from ajax continuously while scrolling",
+    "keywords": [
+        "",
+        "load",
+        "loading",
+        "scroll",
+        "scrollloading",
+        "jqueryscrollloading",
+    ],
+}
